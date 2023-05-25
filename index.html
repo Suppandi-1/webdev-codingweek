@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header1 {
+            height: 508px;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top {
+            display: block;
+            width: 63px;
+            background-color: black;
+            color: white;
+            width: 100vw;
+        }
+
+        .leaderboard h1 {
+            /* border: 2px solid blue; */
+            margin-top: 15px;
+            text-align: center;
+            color: white;
+            height: 100px;
+            font-weight: 200;
+            font-size: 64px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .leaderboard {
+            background-color: #656cec;
+            /* border: 3px solid green; */
+            height: 500px;
+            border-radius: 0px 0px 40px 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .leaderboard hr {
+            border: 1px solid white;
+            background-color: white;
+        }
+
+        .TopThree {
+            color: white;
+            /* border: 2px solid yellow; */
+            /* background-color: pink; */
+            height: 380px;
+            display: flex;
+            width: 100vw;
+            flex-direction: row;
+
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+
+        }
+
+        .top- {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid black; */
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        /* Blocks css */
+
+        .smallblock {
+            margin-top: 53px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .largeblock {
+            margin-top: 5px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .smallblock1 {
+            margin-top: -15px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .largeblock1 {
+            margin-top: 15px;
+            height: 214px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* Smallercircle css */
+        .smallercircle {
+            background-color: #babeff;
+
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            /* border: 2px solid green; */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .biggercircle {
+            background-color: #babeff;
+
+            width: 160px;
+            height: 160px;
+            border-radius: 90px;
+            border: 8px solid white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .biggercircle1 {
+            background-color: #babeff;
+
+            width: 214px;
+            height: 214px;
+            border-radius: 120px;
+            border: 8px solid white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nameplate {
+            width: 160px;
+            height: 35px;
+            /* border: 2px solid green; */
+            border-radius: 20px;
+            background-color: #babeff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        #nameplate1 {
+            margin-top: 15px;
+            height: 44px;
+            width: 236px;
+            font-size: 24px;
+        }
+
+        /* Css for next half */
+    </style>
+</head>
+
+<body>
+    <header class="header1">
+
+        <!-- <div class="top">desktop-1</div> -->
+
+        <div class="leaderboard">
+            <h1>Leaderboard</h1>
+            <hr>
+            <div class="TopThree">
+                <div id="top-1" class="top-">
+                    <div class="smallblock">
+                        <div class="smallercircle" id="sc-1">2</div>
+                    </div>
+                    <div class="largeblock">
+                        <div class="biggercircle" id="SC-1"></div>
+                    </div>
+                    <div class="nameplate">
+                        <div class="h4">Jony sins . 123</div>
+                    </div>
+                </div>
+                <div id="top-2" class="top-">
+                    <div class="smallblock1">
+                        <div class="smallercircle" id="sc-2">1</div>
+                    </div>
+                    <div class="largeblock1">
+                        <div class="biggercircle1" id="SC-2"></div>
+                    </div>
+                    <div class="nameplate" id="nameplate1">
+                        <div class="h4">Jony sins . 123</div>
+                    </div>
+                </div>
+                <div id="top-3" class="top-">
+                    <div class="smallblock">
+                        <div class="smallercircle" id="sc-3">3</div>
+                    </div>
+                    <div class="largeblock">
+                        <div class="biggercircle" id="SC-3"></div>
+                    </div>
+                    <div class="nameplate">
+                        <div class="h4">Jony sins . 123</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="item" id="item-4">
+            <p class="serialno">4</p>
+            <div class="above-circleitem">
+                <div class="circleitem"></div>
+            </div>
+            <p class="names">Suppandi</p>
+            <div class="space"> </div>
+            <p class="score">457</p>
+        </div>
+        <div class="item" id="item-5">
+            <p class="serialno">5</p>
+            <div class="above-circleitem">
+                <div class="circleitem"></div>
+            </div>
+            <p class="names">Suppandi</p>
+            <div class="space"> </div>
+            <p class="score">457</p>
+        </div>
+        <div class="item" id="item-6">
+            <p class="serialno">6</p>
+            <div class="above-circleitem">
+                <div class="circleitem"></div>
+            </div>
+            <p class="names">Suppandi</p>
+            <div class="space"> </div>
+            <p class="score">457</p>
+        </div>
+        <div class="item" id="item-7">
+            <p class="serialno">7</p>
+            <div class="above-circleitem">
+                <div class="circleitem"></div>
+            </div>
+            <p class="names">Suppandi</p>
+            <div class="space"> </div>
+            <p class="score">457</p>
+        </div>
+        <div class="item" id="item-8">
+            <p class="serialno">8</p>
+            <div class="above-circleitem">
+                <div class="circleitem"></div>
+            </div>
+            <p class="names">Suppandi</p>
+            <div class="space"> </div>
+            <p class="score">457</p>
+        </div>
+    </div>
+</body>
+<style>
+    .container {
+        height: 572px;
+        width: 100vw;
+        /* border: 2px solid red; */
+
+    }
+
+    .item {
+        width: 100vw;
+        margin: 15px 0px;
+        height: 100px;
+        background-color: #d2d4f2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .serialno,
+    .names,
+    .space,
+    .score {
+        font-size: 33px;
+        width: 80px;
+        height: 37px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .circleitem {
+        margin: 0 auto;
+        width: 74.42px;
+        height: 74.42px;
+        border-radius: 43px;
+        border: 3px solid white;
+        background-color: #babeff;
+    }
+
+    .above-circleitem {
+        width: 80px;
+        height: 80px;
+        margin: 0 40px;
+    }
+
+    .score {
+        width: 40vw;
+    }
+
+    .space {
+        width: 40vw;
+    }
+</style>
+
+</html>
